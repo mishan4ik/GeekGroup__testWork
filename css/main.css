@@ -1,0 +1,23 @@
+@import "./advetising/advetising.css";
+@import "./header/header.css";
+@import "./UpMenu/Upmenu.css";
+@import "./main__section/main__section.css";
+@import "./down__menu/down__menu.css";
+@import "./footer/footer.css";
+@import "./media/media.css";
+
+:root{
+
+	--font:'Stolzl';
+
+}
+body{
+	font-family: var(--font);
+}
+
+.none{
+	display:none;
+}
+.container{
+	max-width: 900px;
+}

@@ -1,0 +1,21 @@
+.advetising{
+	background-color: #CBDCFF;
+}
+.advetising__content{
+	display: flex;
+	justify-content: center;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+.advetising__content__image img{
+	width: 30px;
+	height: 30px;
+}
+.advetising__content>p{
+	font-family: var(--font);
+	font-weight: 400;
+	font-size: 16px;
+	padding-top: 5px;
+	padding-left: 20px;
+
+}

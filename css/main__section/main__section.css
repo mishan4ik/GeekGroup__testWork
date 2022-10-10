@@ -1,0 +1,265 @@
+.main__block{
+	display: flex;
+}
+/* SideBar */
+
+
+.pages__catalog{
+	padding-top: 40px; 
+	padding-bottom: 60px;
+}
+.pages__catalog a{
+	font-weight: 500;
+	font-size: 12px;
+	font-family: var(--font);
+	text-decoration: none;
+}
+.pages__catalog a:hover{
+	cursor: pointer;
+	font-weight: bold;
+	color: #000;
+}
+.Catalog__name__of__block{
+	font-weight: 400;
+	font-size: 30px;
+	font-family: var(--font);
+	color: #000;
+	padding-bottom: 50px;
+
+}
+.text__filter__Catalog{
+	font-weight: 400;
+	font-size: 22px;
+	color: #000;
+	font-family: var(--font);
+	padding-bottom: 30px;
+
+}
+.SideBar__block{
+	border-bottom: 3px solid #fff;
+}
+.SideBar{
+	max-width: 300px;
+	max-height: 50px;
+	background-color: #EFF1F1;
+	display: flex;
+	justify-content: space-between;
+	padding-right: 20px;
+	align-items: center;
+
+}
+.SideBar h5{
+	font-weight: 400;
+	font-size: 14px;
+	color: #000;
+	padding-left: 20px;
+	cursor: pointer;
+}
+.SideBar img{
+	width: 20px;
+	height: 20px;
+	margin-bottom: 10px;
+}
+.SideBar__content{
+	border-left:1px solid #EFF1F1;
+	border-right:1px solid #EFF1F1;
+	padding-top: 20px;
+	display: none;
+
+}
+.SideBar__content ul li a{
+	font-weight: 400;
+	font-size: 14px;
+	font-family: var(--font);
+	color: #000;
+	text-decoration: none;
+
+
+}
+.SideBar__content ul li a:hover{
+	text-decoration: underline;
+}
+.SideBar__slider{
+	padding-left: 30px;
+	padding-bottom: 20px;
+}
+input[type='range'] {
+        width: 200px;
+        height: 9px;
+        -webkit-appearance: none;
+        background-color: #8E9192;
+    }
+.SideBar__sliderValue{
+	display: flex;
+	padding-left: 30px;
+	padding-right: 20px;
+	margin-bottom: 20px;
+}
+.SideBar__slider__after{
+	padding-left: 20px;
+} 
+#priceBefore,#priceFrom{
+	color: #000;
+	font-size: 14px;
+	font-family: var(--font);
+	border-bottom: 1px solid black; 
+
+}
+.SideBar__slider__before p,.SideBar__slider__after p{
+	font-size: 10px;
+	font-weight: 400;
+	font-family: var(--font);
+	color: #747778;
+}
+.SideBar__slider__before input,.SideBar__slider__after input {
+	width: 100px;
+	border-bottom: 1px solid #C4C7C7;
+
+}
+.Sidebar__sexContent{
+	display: flex;
+	padding-left: 30px;
+}
+.Sidebar__sexContent p{
+	font-weight: 400;
+	font-size: 14px;
+	color: #444748;
+	font-family: var(--font);
+	padding-left: 20px;
+}
+
+.Sidebar__check {
+	background-color: #fff;
+}
+.checkSex:checked~.Sidebar__check {
+	background-color: #000;
+}
+
+
+/* what__to__buy */
+
+
+.what__to__buy{
+	margin-top: 40px;
+}
+
+.buy__sort__cards{
+	display: flex;
+	justify-content: flex-end;
+	padding-bottom: 20px;
+}
+.name__sort p{
+	font-weight: 400;
+	font-size: 12px;`
+	font-family: var(--font);
+	padding-top: 5px;
+}
+.menu__sort select{
+	font-weight: 400;
+	font-size: 12px;`
+	font-family: var(--font);
+	background: #EFF1F1;
+	width: 150px;
+	height: 30px;
+}
+.card{
+	max-width: 300px;
+	height: 450px;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top: 20px;
+	margin-left: 20px;
+	margin-top: 20px;
+}
+
+.block__coup{
+	align-items: center;
+}
+.block__heart{
+	display: flex;
+	justify-content: flex-end;
+
+}
+.topBuy{
+	font-size: 10px;
+	font-weight: 400;
+	font-family: var(--font);
+	width: 35px;
+	height: 25px;
+	background: #B4FFF0;
+	text-align: center;
+	margin-bottom: 20px;
+
+}
+.name__brand{
+	font-family: var(--font);
+	font-weight: 500;
+	font-size: 10px;
+	text-transform: uppercase;
+	color: #5C5F60;
+	
+}
+.img__block__card img{
+	width: 300px;
+	height: 265px;
+}
+#arrowUp,#arrowUp2,#arrowUp1,
+#arrowUp3,#arrowUp4,#arrowUp5,#arrowUp6,
+#arrowUp7,#arrowUp8,#arrowUp9{
+	display: none;
+}
+#arrowUp1{
+	display: none;
+}
+.brand{
+	padding-top: 45px;
+}
+.description__goods{
+	font-family: var(--font);
+	font-weight: 400;
+	font-size: 14px;
+	color: #2D3132;
+}
+.price p:nth-child(1){
+	font-family: var(--font);
+	font-weight: 400;
+	font-size: 12px;
+	text-decoration-line: line-through;
+	color: #747778;
+
+}
+.price p:nth-child(2){
+	font-family: var(--font);
+	font-weight: 500;
+	font-size: 14px;	
+	color: #2D3132;
+}
+.location,.price__user{
+	display: flex;
+}
+.price__card{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.location p{
+	font-family: var(--font);
+	font-weight: 400;
+	font-size: 12px;
+	color: #2D3132;
+	padding-top: 5px;	
+}
+.price__user p{
+	color: #2D3132;
+	font-family: var(--font);
+	font-weight: 400;
+	font-size: 14px;
+	padding-top: 5px;	
+	padding-left: 5px;
+
+}
+.buy__cards{
+	display: flex;
+	justify-content: center;
+
+}
